@@ -3,7 +3,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 School Library ](#-school-library-)
+- [📖 TDD Project ](#-tdd-project-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -22,9 +22,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 School Library <a name="school-library"></a>
+# 📖 TDD Project <a name="TDD-project"></a>
 
-A simple school library app to demonstrate object oriented programming using Ruby
+In this project we implemented a Solver class with various methods using test-driven development (TDD).
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -41,12 +41,7 @@ A simple school library app to demonstrate object oriented programming using Rub
 
 ### Key Features <a name="key-features"></a>
 
-- **Run a school library program using the command line**
-- **Describe the SOLID principles of OOP.**
-- **Refactor your own Ruby code after gaining new knowledge.**
-- **Apply Ruby best practices and language style guides in code.**
-- **Preserve data.**
-- **unit tests.**
+- **Test driven development**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -80,7 +75,7 @@ No instalation needed.
 To run the project, execute the following command:
 
 ```sh
-  ruby main.rb
+  bundle exec rspec
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -107,7 +102,7 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Add SQL schema to create database**
+- **Add mocking with Rspec**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
