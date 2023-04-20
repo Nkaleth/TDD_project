@@ -20,5 +20,15 @@ describe Solver do
       # Assert
       expect { s.factorial(arg) }.to raise_error(ArgumentError)
     end
+
+    it 'returns 6 if arg is 3' do
+      # Arrange
+      s = Solver.new
+      arg = 3
+      # Act
+      result = s.factorial(arg)
+      # Assert
+      expect(result).to eq(6)
+    end
   end
 end
