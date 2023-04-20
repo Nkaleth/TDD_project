@@ -13,6 +13,7 @@ class Solver
   end
 
   def fizzbuzz(arg)
+    return 'fizzbuzz' if (arg % 3).zero? && (arg % 5).zero?
     return 'fizz' if (arg % 3).zero?
     return 'buzz' if (arg % 5).zero?
   end
