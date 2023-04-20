@@ -68,7 +68,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone git@github.com:dennis-every/school-library.git
+  git clone https://github.com/Nkaleth/TDD_project.git
 ```
 
 ### Install
