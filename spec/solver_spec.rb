@@ -30,5 +30,13 @@ describe Solver do
       # Assert
       expect(result).to eq(6)
     end
+
+    it 'raises an exception if the argument is not an integer' do
+      # Arrange
+      s = Solver.new
+      arg = "one"
+      # Assert
+      expect { s.factorial(arg) }.to raise_error(ArgumentError)
+    end
   end
 end
