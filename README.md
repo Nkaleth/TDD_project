@@ -3,7 +3,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 School Library ](#-school-library-)
+- [📖 TDD Project ](#-TDD-project-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -22,9 +22,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 School Library <a name="school-library"></a>
+# 📖 TDD Project <a name="TDD-project"></a>
 
-A simple school library app to demonstrate object oriented programming using Ruby
+In this project we will implement a class with some methods, but we will do it by doing test-driven development (TDD).
 
 ## 🛠 Built With <a name="built-with"></a>
 
