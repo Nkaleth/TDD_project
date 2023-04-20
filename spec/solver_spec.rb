@@ -34,7 +34,7 @@ describe Solver do
     it 'raises an exception if the argument is not an integer' do
       # Arrange
       s = Solver.new
-      arg = "one"
+      arg = 'one'
       # Assert
       expect { s.factorial(arg) }.to raise_error(ArgumentError)
     end
