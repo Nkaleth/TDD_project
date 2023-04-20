@@ -3,7 +3,7 @@ require './solver'
 
 describe Solver do
   describe '#factorial' do
-    it 'takes an integer as an argument' do
+    it 'takes zero as an argument and returns 1' do
       # Arrange
       s = Solver.new
       arg = 0
