@@ -46,4 +46,12 @@ describe Solver do
       expect(new_solver.reverse('Hello')).to eq('olleH')
     end
   end
+
+  describe '#fizzbuzz' do
+    it 'Return "fizz" When N is divisible by 3' do
+      new_solver = Solver.new
+      result = new_solver.fizzbuzz(3)
+      expect(result).to be 'fizz'
+    end
+  end
 end
