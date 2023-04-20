@@ -18,7 +18,7 @@ describe Solver do
       s = Solver.new
       arg = -1
       # Assert
-      expect {s.factorial(arg)}.to raise_error(ArgumentError)
+      expect { s.factorial(arg) }.to raise_error(ArgumentError)
     end
   end
 end
