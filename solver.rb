@@ -7,4 +7,7 @@ class Solver
 
     (1..arg).inject(1) { |product, i| product * i }
   end
+
+  def reverse(string)
+  end
 end
