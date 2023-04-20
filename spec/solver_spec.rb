@@ -12,5 +12,13 @@ describe Solver do
       # Assert
       expect(result).to eq(1)
     end
+
+    it 'raises an exception if the argument is negative' do
+      # Arrange
+      s = Solver.new
+      arg = -1
+      # Assert
+      expect {s.factorial(arg)}.to raise_error(ArgumentError)
+    end
   end
 end
