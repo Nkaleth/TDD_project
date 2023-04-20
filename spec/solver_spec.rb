@@ -51,7 +51,7 @@ describe Solver do
     it 'Return "fizz" When N is divisible by 3' do
       new_solver = Solver.new
       result = new_solver.fizzbuzz(3)
-      expect(result).to be 'fizz'
+      expect(result).to eq('fizz')
     end
   end
 end
